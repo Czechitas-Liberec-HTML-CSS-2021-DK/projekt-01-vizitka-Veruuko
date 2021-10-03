@@ -1,0 +1,62 @@
+body {
+    background-color: gray;
+    color: honeydew;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+
+img {
+   border-radius: 50% ;
+   max-width: 100%;
+   display:block;
+   margin: auto;
+}
+
+.box {
+    background-color: hotpink;
+    background: linear-gradient(35deg, hotpink, hsl(210, 33%, 48%)  );
+    max-width: 400px;
+    margin: 15px auto 0 auto;
+    border: 5px solid #831b72;
+    box-shadow:  6px 8px 19px 6px rgba(0, 0, 0, 0.5);
+}
+
+.kontakty {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+
+.kontakty li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.kontakty li a {
+    border: 2px solid white;
+    display: block;
+    color: honeydew;
+    text-decoration: none;
+
+}
+
+.ramecek {
+    padding: 20px;
+}
+
+.kontakty li a:hover {
+    background-color: rgb(151, 33, 92);
+}
